@@ -2,6 +2,7 @@ package entidades;
 import java.util.ArrayList;
 import java.util.List;
 public class Biblioteca {
+    
     private List<Libro> libros;
     private List<Cliente> clientes;
     public Biblioteca() {
@@ -60,4 +61,5 @@ public class Biblioteca {
             System.out.println(cliente);
         }
     }
+    
 }

@@ -10,6 +10,7 @@ import servicios.GestorLibros;
 public class Proyecto {
 
     public static void main(String[] args) {
+
         Biblioteca biblioteca = new Biblioteca();
         GestorLibros gestorLibros = new GestorLibros(biblioteca);
         GestorClientes gestorClientes = new GestorClientes(biblioteca);
@@ -46,6 +47,7 @@ public class Proyecto {
         System.out.println("Libros disponibles:");
         gestorLibros.mostrarLibrosDisponibles();
         System.out.println("Clientes registrados:");
-        gestorClientes.mostrarClientesRegistrados();
+        gestorClientes.mostrarClientesRegistrados();     
+      
     }
 }
