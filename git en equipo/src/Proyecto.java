@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package git.en.equipo;
 
 import entidades.Biblioteca;
@@ -6,10 +7,13 @@ import entidades.Libro;
 import java.util.List;
 import servicios.GestorClientes;
 import servicios.GestorLibros;
+=======
+>>>>>>> 7ac4e4a (Create Class Libro)
 
 public class Proyecto {
 
     public static void main(String[] args) {
+<<<<<<< HEAD
         Biblioteca biblioteca = new Biblioteca();
         GestorLibros gestorLibros = new GestorLibros(biblioteca);
         GestorClientes gestorClientes = new GestorClientes(biblioteca);
@@ -47,5 +51,10 @@ public class Proyecto {
         gestorLibros.mostrarLibrosDisponibles();
         System.out.println("Clientes registrados:");
         gestorClientes.mostrarClientesRegistrados();
+=======
+        
+        
+
+>>>>>>> 7ac4e4a (Create Class Libro)
     }
 }
