@@ -1,7 +1,4 @@
-/*
- 
- */
-package entidades;
+package git.en.equipo.entidades;
 
 
 public class Cliente {

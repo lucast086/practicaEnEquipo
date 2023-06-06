@@ -1,4 +1,4 @@
-package entidades;
+package git.en.equipo.entidades;
 import java.util.ArrayList;
 import java.util.List;
 public class Biblioteca {

@@ -1,11 +1,11 @@
 package git.en.equipo;
 
-import entidades.Biblioteca;
-import entidades.Cliente;
-import entidades.Libro;
+import git.en.equipo.entidades.Biblioteca;
+import git.en.equipo.entidades.Cliente;
+import git.en.equipo.entidades.Libro;
+import git.en.equipo.servicios.GestorLibros;
+import git.en.equipo.servicios.GestorCliente;
 import java.util.List;
-import servicios.GestorClientes;
-import servicios.GestorLibros;
 
 public class Proyecto {
 
@@ -13,7 +13,7 @@ public class Proyecto {
 
         Biblioteca biblioteca = new Biblioteca();
         GestorLibros gestorLibros = new GestorLibros(biblioteca);
-        GestorClientes gestorClientes = new GestorClientes(biblioteca);
+        GestorCliente gestorClientes = new GestorCliente(biblioteca);
 // Agregar libros
         gestorLibros.agregarLibro("Libro 1", "Autor 1", 2020);
         gestorLibros.agregarLibro("Libro 2", "Autor 2", 2019);
