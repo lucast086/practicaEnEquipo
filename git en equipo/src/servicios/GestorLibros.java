@@ -1,12 +1,11 @@
 
-package entidades;
+package git.en.equipo.servicios;
+
+import git.en.equipo.entidades.Biblioteca;
+import git.en.equipo.entidades.Libro;
 
 import java.util.List;
 
-
-import entidades.Biblioteca;
-import entidades.Libro;
-import java.util.List;
 public class GestorLibros {
 
 

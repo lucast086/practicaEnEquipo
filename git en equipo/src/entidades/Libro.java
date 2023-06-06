@@ -1,5 +1,4 @@
-package entidades;
-
+package git.en.equipo.entidades;
 public class Libro {
     
     private String titulo;

@@ -1,8 +1,13 @@
-package servicios;
+package git.en.equipo.servicios;
+
+import git.en.equipo.entidades.Biblioteca;
+import git.en.equipo.entidades.Cliente;
+
+import java.util.List;
 
 public class GestorCliente {
     private Biblioteca biblioteca;
-    public GestorClientes(Biblioteca biblioteca) {
+    public GestorCliente(Biblioteca biblioteca) {
         this.biblioteca = biblioteca;
     }
     public void agregarCliente(String nombre, String direccion, String telefono) {
