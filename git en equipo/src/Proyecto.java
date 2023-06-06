@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 package git.en.equipo;
 
@@ -11,6 +12,17 @@ import servicios.GestorClientes;
 import servicios.GestorLibros;
 
 
+=======
+package git.en.equipo;
+
+import git.en.equipo.entidades.Biblioteca;
+import git.en.equipo.entidades.Cliente;
+import git.en.equipo.entidades.Libro;
+import git.en.equipo.servicios.GestorLibros;
+import git.en.equipo.servicios.GestorCliente;
+import java.util.List;
+
+>>>>>>> developer
 public class Proyecto {
 
     public static void main(String[] args) {
@@ -51,6 +63,12 @@ public class Proyecto {
         System.out.println("Libros disponibles:");
         gestorLibros.mostrarLibrosDisponibles();
         System.out.println("Clientes registrados:");
+<<<<<<< HEAD
         gestorClientes.mostrarClientesRegistrados();
 
+=======
+        gestorClientes.mostrarClientesRegistrados();     
+      
+    }
+>>>>>>> developer
 }
